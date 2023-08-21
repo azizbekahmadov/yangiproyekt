@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.container .box1 {
+  width: 1200px;
+  height: 600px;
+  display: flex;
+  margin: 20px auto;
+}
+.container .box1 .item1 {
+  width: 1000px;
+  height: 982px;
+  background-color: red;
+  position: relative;
+  flex-grow: 1;
+}
+.container .box1 .item1 .item1-img {
+  width: 100%;
+  height: 982px;
+  flex-grow: 1;
+}
+.container .box1 .item1 .item1-h2 {
+  position: absolute;
+  top: 0px;
+  font-size: 34px;
+  color: #fff;
+  font-weight: 400;
+}
+.container .box1 .item1 .nest {
+  width: 300px;
+  position: absolute;
+  top: 390px;
+  left: 150px;
+}
+.container .box1 .item1 .nest .item1-btn {
+  padding: 12px 24px;
+  background-color: #1E90FF;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 110px;
+  border: none;
+}
+.container .box1 .item2 {
+  width: 600px;
+  height: 982px;
+}
+.container .box1 .item2 .item1-img {
+  width: 100%;
+  height: 100%;
+}
+.container .box1 .item2 .item2-h2 {
+  font-size: 34px;
+  color: #000;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin-left: 50px;
+  margin-top: 90px;
+}
+.container .box1 .item2 hr {
+  width: 492px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.container .box1 .item2 .boxing .nest1 li {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.container .box1 .item2 .boxing .dd {
+  margin-left: 20px;
+  margin-top: 10px;
+  width: 320px;
+}
+.container .box1 .item2 .boxing .dd .btn22 {
+  width: 90px;
+  background: transparent;
+  border: none;
+  color: #888888;
+}
+.container .box1 .item2 .boxing .dd .btn33 {
+  width: 90px;
+  background: transparent;
+  border: none;
+  color: #888888;
+}
+.container .box1 .item2 .boxing .ul-btn {
+  padding: 12px;
+  width: 492px;
+  margin-top: 30px;
+  margin-left: 50px;
+  background-color: #1E90FF;
+  color: #fff;
+  border: none;
+}/*# sourceMappingURL=styel.css.map */
